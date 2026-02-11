@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTS Online Concert</title>
+
+<link rel="stylesheet" href="stylee.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<video class="video-bg" id="bgVideo" autoplay loop muted>
+  <source src="bg.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<header>
+<h1>BTS ONLINE CONCERT</h1>
+<p>Watch upcoming concerts live online</p>
+
+<button class="buy-main" onclick="goTelegram()">
+The BTS opening concert stream is free to watch for all users who join the queue.
+</button>
+</header>
+
+  
+  
+  <section class="about">
+  <div class="about-container">
+
+    <h2>About This Stream</h2>
+
+    <p>
+      This is a fan-organized online watch party for BTS concerts.  
+      We provide private streaming access for fans worldwide who want to watch together in real time.
+    </p>
+
+    <p>
+      After purchasing, you will receive your private stream access instantly via Telegram.
+      Our community includes thousands of fans watching together every concert.
+    </p>
+
+  </div>
+</section>
+  
+  
+  <div class="trust-bar">
+<span>✔ Secure Access</span>
+<span>✔ Instant Ticket Delivery</span>
+<span>✔ 24/7 Support</span>
+<span>✔ 5,000+ Fans Joined</span>
+</div>
+  
+<section>
+<h2 class="section-title">Upcoming Concerts</h2>
+
+<div class="concerts">
+
+<div class="card">
+<img src="concert1.jpg">
+<div class="card-content">
+<div class="date">To purchase a paid live-stream coupon, tickets are currently unavailable at the moment.
+To secure your spot, please join the free waiting list.
+
+The earlier you join the queue, the earlier you’ll receive your online viewing activation code and ticket once they become available.
+Joining the waiting list is completely free.
+
+The BTS opening concert stream will be free to watch for all users who join the queue.
+
+To join the free queue and get updates, please contact us on Telegram.</div>
+<button class="buy-btn" onclick="goTelegram()">Contact us</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<button class="mute-btn" onclick="toggleSound()">Unmute</button>
+
+<script src="script.js"></script>
+</body>
+</html>
